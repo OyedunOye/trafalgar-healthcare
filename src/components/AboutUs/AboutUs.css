@@ -1,0 +1,23 @@
+.aboutus_container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+
+.aboutus-image {
+    display: flex;
+    width: 650px;
+    height: 477px;
+
+}
+
+.aboutus-text {
+    margin-left: 2rem;
+}
+
+.aboutus-button {
+    margin-top: 1.5rem;
+    color: var(--color-blue);
+}

@@ -15,5 +15,5 @@ export {
     MobileApp,
     Testimonials,
     Publications,
-    Footer
+    Footer,
 };

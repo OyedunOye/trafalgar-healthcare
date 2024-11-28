@@ -1,0 +1,37 @@
+.introduction_container {
+    justify-content: space-between;
+}
+
+.introduction-texts {
+    padding-right: 2rem;
+}
+
+.introduction-image {
+    padding-left: 2rem;
+
+}
+.introduction-texts > h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--color-black);
+}
+
+/* .introduction-texts > p {
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: var(--color-gray);
+    margin-top: 2rem;
+} */
+
+.introduction-texts > p {
+    margin-top: 2rem;
+}
+
+.introduction-texts > button {
+    margin-top: 2rem;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}
+

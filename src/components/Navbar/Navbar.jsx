@@ -4,8 +4,7 @@ import logo from '../../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <div>
-      <div className='navbar section__margin'>
+      <div className='navbar section__margin' id='home'>
         <div className='navbar-logo'>
           <img src={logo} alt='logo' />
         </div>
@@ -15,12 +14,11 @@ const Navbar = () => {
             <a href='#services' className='navbar-link'>Find a doctor</a>
             <a href='#mobileapp' className='navbar-link'>Apps</a>
             <a href='#testimonials' className='navbar-link'>Testimonials</a>
-            <a href='#publications' className='navbar-link'>About Us</a>
+            <a href='#aboutUs' className='navbar-link'>About Us</a>
           </nav>
         </div>
       </div>
       
-    </div>
   )
 }
 

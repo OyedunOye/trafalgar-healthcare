@@ -5,7 +5,7 @@ import Divider from '../Divider/Divider'
 
 const Services = () => {
   return (
-    <div className='services_container section__container'>
+    <div className='services_container section__container' id='services'>
       <div className='services-intro'>
         <h1>Our Services</h1>
         <Divider />

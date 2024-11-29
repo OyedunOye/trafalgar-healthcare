@@ -6,7 +6,7 @@ import app from '../../assets/app.png'
 
 const MobileApp = () => {
   return (
-    <div className='mobileapp_container section__container'>
+    <div className='mobileapp_container section__container' id='mobileapp'>
       <div className='mobileapp-text section__texts'>
         <h3>Download our mobile apps</h3>
         <div className='mobileapp-divider'>

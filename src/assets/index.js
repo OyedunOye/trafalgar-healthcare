@@ -15,6 +15,7 @@ import info from "./info.png"
 import search from "./search.png"
 import tracking from "./tracking.png"
 import servicesBgd from "./servicesBgd.png"
+import logoFooter from "./logoFooter.png"
 
 export {
     mobileApp,
@@ -33,5 +34,6 @@ export {
     info,
     search,
     tracking,
-    servicesBgd
+    servicesBgd,
+    logoFooter
 }

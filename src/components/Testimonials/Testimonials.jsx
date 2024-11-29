@@ -8,7 +8,7 @@ import { FaEllipsisH } from "react-icons/fa";
 
 const Testimonials = () => {
   return (
-    <div className='testimonials_container section__container'>
+    <div className='testimonials_container section__container' id='testimonials'>
       <div className='testimonials_main_content'>
         <h3 className='testimonials_title'>What our customer are saying</h3> 
         <div className='testimonials-divider'>

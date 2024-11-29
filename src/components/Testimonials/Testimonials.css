@@ -13,8 +13,8 @@
     color: var(--color-white);
 }
 
-.testimonials-divider {
-    color: var(--color-white);
+.testimonials-divider div {
+    background-color: var(--color-white);
 }
 
 .founder {

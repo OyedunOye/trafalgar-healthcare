@@ -13,14 +13,26 @@
     height: 41px;
 }
 
-nav {
+.navbar-links > nav {
     width: 545px;
     height: 23px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font: var(--font-base);
 }
+.navbar-smallscreen_overlay > nav {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 4rem;
+    border: 2px solid blue;
+}
+
+/* .small-menu > a {
+    margin-top: 2rem 0;
+} */
 
 a{
     color: #1F1534;
@@ -28,8 +40,57 @@ a{
 }
 
 a:hover{
-    font-weight: 700px;
+    color: var(--color-blue);
     font-size: 18px;
     line-height: 22.59px;
 }
 
+.navbar-smallscreen {
+    display: none;
+}
+
+.overlay__close {
+    display: flex;
+    border: 2px green solid;
+}
+.navbar-smallscreen_overlay {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 3rem;
+    right: 0;
+    width: 50%;
+    height: 30vh;
+    background: var(--color-white);
+    transition: 0.5s ease;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
+.navbar-smallscreen_overlay .overlay__close {
+    display: flex;
+    flex-direction: column;
+    font-size: 27px;
+    color: var(--color-black);
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+    
+    .navbar-smallscreen {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .navbar-smallscreen {
+    display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+}

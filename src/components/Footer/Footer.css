@@ -30,4 +30,5 @@
 .footer-section-b a, .footer-section-c a, .footer-section-d a {
     color: var(--color-white);
     margin: 0.3rem 0;
+    cursor: pointer;
 }

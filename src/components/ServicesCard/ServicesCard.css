@@ -12,7 +12,7 @@
     width: 350px;
     height: 354px;
     padding: 2rem;
-
+    border: 2px black solid;
 }
 
 .service-card > img {

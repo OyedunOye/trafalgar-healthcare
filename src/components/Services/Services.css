@@ -1,10 +1,33 @@
 .services_container {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
 }
 
+.services-bgA{
+    position: absolute;
+    width: 1118px;
+    height: 900px;
+    top: 190px;
+    left:-150px;
+    z-index: 1;
+    /* rotate: -21.46; */
+    /* border: 2px red solid; */
+}
+
+.services-bgB {
+    position: absolute;
+    width: 131.58px;
+    height: 115px;
+    top: 510px;
+    z-index: 1;
+    right: -190px;
+    rotate: 180;
+    opacity: 90%;
+    /* border: 2px solid green; */
+}
 .services-intro {
     display: flex;
     flex-direction: column;
@@ -30,6 +53,23 @@
 }
 
 .services-cards-container {
+    /* position: relative; */
     align-items: center;
     align-content: center;
+    /* border: 2px solid purple; */
+    
+}
+
+@media screen and (max-width: 650px) {
+    .services_container {
+        width: 100%;
+        margin: 0 0.5rem;
+        border: 1px black solid;
+    }
+
+    .services-intro {
+        width: auto;
+        padding: 0;
+        border: red 2px solid;
+    }
 }

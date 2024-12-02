@@ -1,6 +1,6 @@
 .footer_container {
     display: flex;
-    background-color: var(--color-blue);
+    background-color: var(--color-blue-gra);
     margin-top: 10rem;
 }
 
@@ -31,4 +31,14 @@
     color: var(--color-white);
     margin: 0.3rem 0;
     cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+    .footer_container {
+        flex-direction: column;
+    }
+
+    .footer-section-b {
+        border: 2px black solid;
+    }
 }

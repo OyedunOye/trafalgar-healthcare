@@ -42,3 +42,18 @@
     align-content: center;
     
 }
+
+@media screen and (max-width: 650px) {
+    .articles-card {
+        flex-direction: column;
+        justify-content: space-between;
+        border: 2px red solid;
+        align-items: center;
+        
+    }
+
+    .article-card {
+        align-content: space-between;
+        margin-bottom: 2rem;
+    }
+}

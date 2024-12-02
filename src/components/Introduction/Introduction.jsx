@@ -1,10 +1,14 @@
 import React from 'react'
 import './Introduction.css'
 import { illustration } from '../../assets'
+import dotsDesign from '../../assets/dotsDesign.svg'
 
 const Introduction = () => {
   return (
     <section className='introduction_container section__container'>
+      <div className='introduction-background section__background'>
+        <img src={dotsDesign} alt='dotted background design' />
+      </div>
       <div className='introduction-texts section__texts'>
         <h1>Virtual healthcare for you</h1>
         <p>

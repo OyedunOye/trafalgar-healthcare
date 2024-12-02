@@ -14,7 +14,7 @@ const Testimonials = () => {
         <div className='testimonials-divider'>
           <Divider />
         </div>
-      
+
         <div className='founder'>
           <div className='founder_image'>
             <img src={founder} alt="The founder" />

@@ -21,3 +21,21 @@
     margin-top: 1.5rem;
     color: var(--color-blue);
 }
+
+@media screen and (max-width: 650px) {
+    .aboutus_container {
+        flex-direction: column;
+    }
+
+    .aboutus-image {
+        width: fit-content;
+        height: 350px;
+        margin-bottom: 3rem;
+        border: 2px red solid;
+
+    }
+
+    .aboutus-image > img {
+        width: 400px;
+    }
+}

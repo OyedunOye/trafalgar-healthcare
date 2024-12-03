@@ -2,9 +2,21 @@
   box-sizing:border-box;
   padding: 0;
   margin: 0;
-  scroll-behavior:smooth;
-  font-family: var(--font-base)
+  /* scroll-behavior:smooth; */
+  font-family: var(--font-base);
+  
 }
+
+.trafalgar_app {
+  margin: 0 8rem;
+  overflow: hidden;
+  /* position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0; */
+}
+
 
 body{
   background: #fff;
@@ -38,7 +50,7 @@ p {
   align-content: center;
   align-items: center;
   justify-content: space-between;
-  margin: 2rem 10rem;
+  /* margin: 2rem 10rem; */
 }
 
 .section__texts {
@@ -54,15 +66,11 @@ p {
     height: 598px;
 }
 
-.section__margin {
-  margin: 2rem 10rem;
-}
-
 .section__padding {
   margin: 2rem 8rem;
 }
 
-.scale-up-center {
+/* .scale-up-center {
 	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
@@ -87,7 +95,7 @@ p {
       -webkit-transform: scale(1);
               transform: scale(1);
     }
-  }
+  } */
 
 @media screen and (max-width:700px) {
   .section__padding {

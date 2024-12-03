@@ -1,5 +1,6 @@
 .publications_container {
     margin: 5rem 0 2rem 0;
+    /* border: 2px solid black; */
 }
 
 .publications-holder {
@@ -8,6 +9,42 @@
     align-items: center;
     justify-content: space-between;
     width: auto;
+    /* border: red 2px solid; */
+}
+
+.publications-title {
+    margin: 2rem 0 1rem 0;
+}
+
+.publications-dot-design {
+    position: absolute;
+    /* border: 2px red solid; */
+    width: 150px;
+    height: 115px;
+    top: 4090px;
+    left: 91px;
+    opacity: 90%;
+    z-index: 1;
+}
+
+.publications-dot-design > img {
+    width: 150px;
+    height: 115px;
+}
+
+.publications-img-design {
+    position: absolute;
+    /* border: 2px red solid; */
+    width: 370px;
+    height: 500px;
+    top: 4100px;
+    right: 0px;
+    opacity: 90%;
+    z-index: 2;
+}
+.publications-img-design > img {
+    width: 370px;
+    height: 500px;
 }
 
 .publications-button {

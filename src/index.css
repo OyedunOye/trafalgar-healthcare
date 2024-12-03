@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;600;700&display=swap');
 
 :root {
-  --font-base: 'Muli', sans-serif;
+  --font-base: 'Muli';
 
   --color-blue: #458FF6;
   --color-black: #000000;

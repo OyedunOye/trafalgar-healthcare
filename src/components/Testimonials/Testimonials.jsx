@@ -1,14 +1,21 @@
 import React from 'react'
 import './Testimonials.css'
 import Divider from '../Divider/Divider'
-import founder from '../../assets/founder_ed.png'
+// import founder from '../../assets/founder_ed.png'
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import { FaEllipsisH } from "react-icons/fa";
+import { dotdesign, founder } from '../../assets';
 
 const Testimonials = () => {
   return (
     <div className='testimonials_container section__container' id='testimonials'>
+      <div className='testimonials_bgd-imgA'>
+        <img src={dotdesign} alt='dotted_designA' />
+      </div>
+      <div className='testimonials_bgd-imgB'>
+      <img src={dotdesign} alt='dotted_designB' />
+      </div>
       <div className='testimonials_main_content'>
         <h3 className='testimonials_title'>What our customer are saying</h3> 
         <div className='testimonials-divider'>

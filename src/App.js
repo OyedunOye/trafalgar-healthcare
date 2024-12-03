@@ -3,7 +3,7 @@ import './App.css';
 import { Navbar, Introduction, AboutUs, MobileApp, Services,Publications, Testimonials, Footer } from './components';
 
 const App = () => (
-    <div className="App">
+    <div className="trafalgar_app">
       <Navbar />
       <Introduction />
       <Services />

@@ -1,10 +1,18 @@
 import React from 'react'
 import './Footer.css'
 import logoFooter from '../../assets/logoFooter.png'
+import footerDotsDesign from '../../assets/footerDotsDesign.png'
+import pubDotsDesign from '../../assets/pubDotsDesign.png'
 
 const Footer = () => {
   return (
     <div className='footer_container' id='aboutUs'>
+      <div className='footer_bgd-imgA'>
+        <img src={footerDotsDesign} alt='dotted_designA' />
+      </div>
+      <div className='footer_bgd-imgB'>
+        <img src={pubDotsDesign} alt='dotted_designB' />
+      </div>
       <div className='footer-section-a'>
         <img src={logoFooter} alt='trafalgar logo' />
         <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>

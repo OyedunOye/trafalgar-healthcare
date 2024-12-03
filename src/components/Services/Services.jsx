@@ -3,7 +3,7 @@ import './Services.css'
 import ServicesCard from '../ServicesCard/ServicesCard'
 import Divider from '../Divider/Divider'
 import blob from '../../assets/blob.svg'
-import servicesDotsDesign from '../../assets/dotsDesign.svg'
+import servicesDotsDesign from '../../assets/servicesDotsDesign.png'
 
 const Services = () => {
   return (

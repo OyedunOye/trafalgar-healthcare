@@ -1,36 +1,86 @@
 .services-card {
-    display: grid;
-    grid-template-columns:repeat(3, auto);
-    grid-template-rows:repeat(2, auto);
-    gap: 0.5rem;
-    padding: 1rem 3rem;
-    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem 3rem; */
+    margin: 5rem 4rem;
+    /* z-index: 5; */
+    /* justify-content: space-between; */
+    /* border: 2px solid red; */
+    width: auto;
 }
 
-.service-card {
+.services-card-rowA  {
+    /* border: solid 2px purple; */
+    width: 100%;
+    /* margin: 1rem; */
+}
+
+.services-card-rowB {
+    /* border: darkseagreen solid 2px; */
+    width: 100%;
+    /* margin: 1rem; */
+}
+
+.service-card-rowA {
+    justify-content: space-between;
+    background-color: var(--color-white);
+    margin: 1rem;
     border-radius: 2rem;
-    background-color: #fff;
-    width: 350px;
-    height: 354px;
+    /* background-color: orange; */
+    width: 30%;
+    height: 380px;
     padding: 2rem;
-    box-shadow: 2in;
-    /* border: 2px black solid; */
+    /* border: 2px solid black; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);    /* border: 2px black solid; */
     z-index: 20;
 }
 
-.service-card > img {
-    width: 70px;
-    height: 95px;
+.service-card-rowB{
+    justify-content: space-between;
+    background-color: var(--color-white);
+    margin: 1rem;
+    border-radius: 2rem;
+    /* background-color: orange; */
+    width: 30%;
+    height: 380px;
+    padding: 2rem;
+    z-index: 20;
+    /* border: 2px solid black; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);    /* border: 2px black solid; */
+    
+}
+
+.service-card-rowA > img {
+    width: auto;
+    height: auto;
+    margin: 1rem 0rem;
+    /* display: flex;
+    flex-direction: column; */
+}
+.service-card-rowB > img {
+    width: auto;
+    height: auto;
     margin: 1rem 0rem;
 }
 
-.service-card > h3 {
+.service-card-rowA > h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 56px;
+}
+.service-card-rowB > h3 {
     font-weight: 700;
     font-size: 24px;
     line-height: 56px;
 }
 
-.service-card > p {
+.service-card-rowA > p  {
+    color: var(--color-gray);
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.service-card-rowB > p  {
     color: var(--color-gray);
     font-weight: 300px;
     font-size: 16px;

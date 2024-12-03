@@ -1,8 +1,8 @@
 .introduction_container {
-    /* justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
     /* border: 2px red solid; */
-    margin: 5rem 0;
-    width: 100%;
+    margin: 5rem 8rem;
 }
 
 .introduction-background {
@@ -16,11 +16,14 @@
 
 .introduction-texts {
     padding-right: 2rem;
+    width: 40%;
+    /* border: 2px purple solid; */
 }
 
 .introduction-image {
     padding-left: 2rem;
     width: auto;
+    /* border: 2px red solid; */
 
 
 }

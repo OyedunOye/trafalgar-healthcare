@@ -8,13 +8,8 @@
 }
 
 .trafalgar_app {
-  margin: 0 8rem;
+  /* margin: 0 8rem; */
   overflow: hidden;
-  /* position: fixed;
-  right: 0;
-  left: 0;
-  top: 0;
-  bottom: 0; */
 }
 
 
@@ -51,6 +46,10 @@ p {
   align-items: center;
   justify-content: space-between;
   /* margin: 2rem 10rem; */
+}
+
+.section_margin {
+  margin: 0 8rem;
 }
 
 .section__texts {

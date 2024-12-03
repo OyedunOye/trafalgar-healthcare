@@ -9,7 +9,7 @@ import { dotdesign, founder } from '../../assets';
 
 const Testimonials = () => {
   return (
-    <div className='testimonials_container section__container' id='testimonials'>
+    <div className='testimonials_container section_margin section__container' id='testimonials'>
       <div className='testimonials_bgd-imgA'>
         <img src={dotdesign} alt='dotted_designA' />
       </div>

@@ -7,7 +7,7 @@ import blobB from '../../assets/blobB.png'
 
 const Publications = () => {
   return (
-    <section id='publications' className='publications_container'>
+    <section id='publications' className='publications_container section_margin'>
       <div className='publications-dot-design'>
         <img src={pubDotsDesign} alt='dots design' />
       </div>

@@ -5,7 +5,7 @@ import dotsDesign from '../../assets/dotsDesign.svg'
 
 const Introduction = () => {
   return (
-    <section className='introduction_container section__container'>
+    <section className='introduction_container section__container section_margin'>
       <div className='introduction-background section__background'>
         <img src={dotsDesign} alt='dotted background design' />
       </div>

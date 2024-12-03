@@ -7,7 +7,7 @@ import servicesDotsDesign from '../../assets/servicesDotsDesign.png'
 
 const Services = () => {
   return (
-    <div className='services_container section__container' id='services'>
+    <div className='services_container section_margin section__container' id='services'>
       
       <div className='services-intro'>
         <h1>Our Services</h1>

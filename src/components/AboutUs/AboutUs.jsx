@@ -5,7 +5,7 @@ import { quality_service } from '../../assets'
 
 const AboutUs = () => {
   return (
-    <div className='aboutus_container'>
+    <div className='aboutus_container section_margin'>
       <div className='aboutus-image'>
         <img src={quality_service} alt='aboutus' />
       </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import './MobileApp.css'
 import { FaArrowDown } from "react-icons/fa";
 import Divider from '../Divider/Divider';
-import app from '../../assets/app.png'
+import { app } from '../../assets'
 
 const MobileApp = () => {
   return (

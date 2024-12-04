@@ -1,8 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import logoFooter from '../../assets/logoFooter.png'
-import footerDotsDesign from '../../assets/footerDotsDesign.png'
-import pubDotsDesign from '../../assets/pubDotsDesign.png'
+import { pubDotsDesign, logoFooter, footerDotsDesign } from '../../assets'
 
 const Footer = () => {
   return (

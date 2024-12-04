@@ -1,14 +1,12 @@
 .mobileapp_container {
     margin-top: 6rem;
     margin-bottom: 6rem;
-    /* border: 2px solid purple; */
-
 }
+
 .mobileapp-image {
     margin-left: 2rem;
     width: auto;
     height: 450px;
-    /* border: red 2px solid; */
 }
 
 .mobileapp-text {
@@ -23,13 +21,11 @@
 @media screen and (max-width: 1150px){
     .mobileapp_container {
         flex-direction: column;
-        /* border: 2px red solid; */
         width: auto;
         margin: 1rem 0 0 0;
     }
 
     .mobileapp-image {
-        /* border: red 2px solid; */
         width: 80%;
     }
 
@@ -38,30 +34,25 @@
     }
 
     .mobileapp-text {
-        /* border: purple 2px solid; */
-        /* margin: 1rem 0px; */
         margin-top: 2rem;
         margin-left: 0px;
         width: 80%;
-        
+
     }
 }
 @media screen and (max-width: 650px) {
     .mobileapp_container {
-        /* border: 2px purple solid; */
         margin: 2rem 0px;
     }
 
     .mobileapp-image {
         width: auto;
         height: auto;
-        /* border: 2px red solid; */
         margin: 2rem;
 
     }
 
     .mobileapp-text  {
-        /* border: black 2px solid; */
         height: auto;
     }
 }

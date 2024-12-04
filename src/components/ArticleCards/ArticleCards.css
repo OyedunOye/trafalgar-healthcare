@@ -1,8 +1,6 @@
 .articles-card {
     display: flex;
-    /* border-radius: 2rem; */
     margin: 4rem 0;
-    /* border: purple 2px solid; */
 }
 
 .article-card {
@@ -15,13 +13,13 @@
     width: 100%;
     height: 512px;
     z-index: 15;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);}
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
 
 .article-card > img {
     width: auto;
     height: 246px;
     border-radius: 2rem 2rem 0 0;
-
 }
 
 .article-card > h3 {
@@ -41,12 +39,11 @@
     margin-bottom: 1.5rem;
     align-items: center;
     align-content: center;
-    
+
 }
 
 @media screen and (max-width: 1150px) {
     .articles-card {
-        /* border: purple 2px solid; */
         width: auto;
         flex-direction: column;
         height: 100%;

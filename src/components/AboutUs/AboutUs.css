@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 6rem;
-    /* border: 2px solid red; */
 }
 
 .aboutus-image {
@@ -26,13 +25,11 @@
 @media screen and (max-width: 1150px) {
     .aboutus_container {
         flex-direction: column;
-        /* border: 2px red solid; */
         width: auto;
         margin: 6rem 0 0 0;
     }
 
     .aboutus-image {
-        /* border: red 2px solid; */
         width: 80%;
     }
 
@@ -41,23 +38,19 @@
     }
 
     .aboutus-text {
-        /* border: purple 2px solid; */
-        /* margin: 1rem 0px; */
         margin-top: 2rem;
         margin-left: 0px;
         width: 80%;
-        
     }
 }
+
 @media screen and (max-width: 650px) {
     .aboutus_container {
         margin: 3rem 0;
-        /* border: 2px red solid; */
     }
     .aboutus-image {
         width: auto;
         height: auto;
-        /* border: 2px red solid; */
         margin: 2rem;
     }
 }

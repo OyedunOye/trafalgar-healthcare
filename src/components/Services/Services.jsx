@@ -2,12 +2,11 @@ import React from 'react'
 import './Services.css'
 import ServicesCard from '../ServicesCard/ServicesCard'
 import Divider from '../Divider/Divider'
-import blob from '../../assets/blob.svg'
-import servicesDotsDesign from '../../assets/servicesDotsDesign.png'
+import { servicesDotsDesign, blob } from '../../assets'
 
 const Services = () => {
   return (
-    <div className='services_container section_margin section__container' id='services'>
+    <div className='services_container ' id='services'>
       
       <div className='services-intro'>
         <h1>Our Services</h1>

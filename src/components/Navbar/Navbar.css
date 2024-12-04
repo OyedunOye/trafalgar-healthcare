@@ -5,7 +5,6 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* border: 2px red solid; */
 }
 
 .navbar-logo {
@@ -28,12 +27,7 @@
     justify-content: space-between;
     align-items: flex-end;
     margin-top: 4rem;
-    /* border: 2px solid blue; */
 }
-
-/* .small-menu > a {
-    margin-top: 2rem 0;
-} */
 
 a{
     color: #1F1534;
@@ -63,7 +57,6 @@ a:hover{
     box-shadow: inset;
     transition: 0.5s ease;
     flex-direction: column;
-    /* border: 2px solid red; */
 }
 
 .overlay__close {
@@ -111,6 +104,5 @@ a:hover{
         right: 1rem;
         width: auto;
         padding-right: 1rem;
-        /* border: 2px solid red; */
     }
 }

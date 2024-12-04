@@ -1,10 +1,7 @@
 import React from 'react'
 import './Testimonials.css'
 import Divider from '../Divider/Divider'
-// import founder from '../../assets/founder_ed.png'
-import { FaArrowLeft } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
-import { FaEllipsisH } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight, FaEllipsisH } from "react-icons/fa";
 import { dotdesign, founder } from '../../assets';
 
 const Testimonials = () => {

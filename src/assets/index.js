@@ -16,6 +16,13 @@ import search from "./search.png"
 import tracking from "./tracking.png"
 import servicesBgd from "./servicesBgd.png"
 import logoFooter from "./logoFooter.png"
+import dotsDesign from "./dotsDesign.svg"
+import servicesDotsDesign from "./servicesDotsDesign.png"
+import blob from "./blob.svg"
+import app from "./app.png"
+import pubDotsDesign from "./pubDotsDesign.png"
+import blobB from "./blobB.png"
+import footerDotsDesign from "./footerDotsDesign.png"
 
 export {
     mobileApp,
@@ -35,5 +42,12 @@ export {
     search,
     tracking,
     servicesBgd,
-    logoFooter
+    logoFooter,
+    dotsDesign,
+    servicesDotsDesign,
+    blob,
+    app,
+    pubDotsDesign,
+    blobB,
+    footerDotsDesign,
 }

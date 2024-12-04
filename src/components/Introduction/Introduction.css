@@ -1,7 +1,6 @@
 .introduction_container {
     display: flex;
     justify-content: space-between;
-    /* border: 2px red solid; */
     margin: 5rem 8rem;
 }
 
@@ -17,16 +16,13 @@
 .introduction-texts {
     padding-right: 2rem;
     width: 40%;
-    /* border: 2px purple solid; */
 }
 
 .introduction-image {
     padding-left: 2rem;
     width: auto;
-    /* border: 2px red solid; */
-
-
 }
+
 .introduction-texts > h1 {
     font-weight: 700;
     font-size: 48px;
@@ -44,16 +40,18 @@
     background-color: var(--color-blue);
 }
 
+.introduction-texts > button:hover {
+    background-color: white;
+    color: var(--color-black);
+}
+
 @media screen and (max-width: 1150px) {
     .introduction_container {
-        /* border: 2px solid red; */
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
     }
 
     .introduction-texts {
-        /* border: 2px purple solid; */
         width: 100%;
         margin-bottom: 2rem;
     }
@@ -61,7 +59,6 @@
     .introduction-image{
         width: 100%;
         height: 25rem;
-        /* border: 2px goldenrod solid; */
     }
 
     .introduction-image > img {
@@ -71,27 +68,22 @@
 
 @media screen and (max-width: 650px){
     .introduction_container {
-        /* border: red 2px solid; */
         flex-direction: column;
         position: relative;
         margin: 4rem 2rem;
     }
 
     .introduction-background {
-        /* border: 2px purple solid; */
         top: -70px;
         left: -40px;
     }
 
     .introduction-texts{
         margin-bottom: 5rem;
-        /* border: 2px solid purple; */
         height: auto;
     }
 
     .introduction-image {
-        /* border: red 2px solid; */
         height: 100%;
-
     }
-    }
+}

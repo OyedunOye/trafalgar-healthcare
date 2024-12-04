@@ -2,8 +2,7 @@ import React from 'react'
 import './Publications.css'
 import Divider from '../Divider/Divider'
 import ArticleCards from '../ArticleCards/ArticleCards'
-import pubDotsDesign from '../../assets/pubDotsDesign.png'
-import blobB from '../../assets/blobB.png'
+import { pubDotsDesign, blobB } from '../../assets'
 
 const Publications = () => {
   return (

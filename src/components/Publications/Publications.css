@@ -1,6 +1,5 @@
 .publications_container {
     margin: 5rem 0 2rem 0;
-    /* border: 2px solid black; */
 }
 
 .publications-holder {
@@ -9,8 +8,6 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 8rem;
-    /* width: auto; */
-    /* border: red 2px solid; */
 }
 
 .publications-title {
@@ -19,7 +16,6 @@
 
 .publications-dot-design {
     position: absolute;
-    /* border: 2px red solid; */
     width: 150px;
     height: 115px;
     top: 4090px;
@@ -35,7 +31,6 @@
 
 .publications-img-design {
     position: absolute;
-    /* border: 2px red solid; */
     width: 370px;
     height: 500px;
     top: 4100px;
@@ -43,6 +38,7 @@
     opacity: 90%;
     z-index: 2;
 }
+
 .publications-img-design > img {
     width: 370px;
     height: 500px;
@@ -69,7 +65,7 @@
         width: auto;
         margin: 0 2rem;
     }
-    
+
     .publications-holder > h2 {
         margin-bottom: 2rem;
         text-align: center;

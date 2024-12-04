@@ -1,7 +1,6 @@
 import React from 'react'
 import './Introduction.css'
-import { illustration } from '../../assets'
-import dotsDesign from '../../assets/dotsDesign.svg'
+import { illustration, dotsDesign } from '../../assets'
 
 const Introduction = () => {
   return (

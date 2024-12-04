@@ -1,11 +1,23 @@
-Hello world!
+# Hello world!
 
-This is my first project with Refonte Learning.
+## 👋Hi, I'm Shade 🙂
 
-I have build the landing page of web app for Trafalgar, a healthcare provider.
+This is my first internship project with Refonte Learning.
 
-The project figma design is https://www.figma.com/design/EWmzcVkd7qbP5Nf7iMvuqP/Trafalgar-Landing-Page?node-id=0-1&node-type=canvas&t=KJMamd17qydajnSH-0
+I have built the landing page of web app for Trafalgar, a healthcare provider.
 
-The app is developed to be responsive across different devices: mobile phones, tablets and laptops.
+You can checkout the figma design which I used for this frontend development at https://www.figma.com/design/EWmzcVkd7qbP5Nf7iMvuqP/Trafalgar-Landing-Page?node-id=0-1&node-type=canvas&t=KJMamd17qydajnSH-0
 
-I built this using React. The app consists of HTML, CSS and a bit of JavaScript code.
+The webpage is developed to be responsive across different devices, including:
+*mobile phones
+*tablets
+*laptops
+
+Technologies employed in the development are:
+*React framwwork
+*TypeScript
+*CSS
+
+You can check out my deployed version of this work at https://trafalgar-healthcare-rho.vercel.app/
+
+#Thank you!

@@ -54,8 +54,25 @@
     background-color: var(--color-white);
 }
 
+@media screen and (max-width: 1150px) {
+    .publications-dot-design {
+        display: none;
+    }
+
+    .publications-img-design {
+        top: 5580px;
+    }
+}
+
 @media screen and (max-width: 650px) {
+    .publications-holder {
+        width: auto;
+        margin: 0 2rem;
+    }
+    
     .publications-holder > h2 {
         margin-bottom: 2rem;
+        text-align: center;
+        width: auto;
     }
 }

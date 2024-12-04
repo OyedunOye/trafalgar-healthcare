@@ -95,10 +95,22 @@ a:hover{
 @media screen and (max-width: 650px) {
     .navbar-smallscreen {
     display: flex;
-    margin: 0 2px;
+    }
+
+    .navbar {
+        margin: 0 2rem;
     }
 
     .navbar-links {
         display: none;
+    }
+
+    .navbar-smallscreen_overlay {
+        
+        top: 0.5rem;
+        right: 1rem;
+        width: auto;
+        padding-right: 1rem;
+        /* border: 2px solid red; */
     }
 }

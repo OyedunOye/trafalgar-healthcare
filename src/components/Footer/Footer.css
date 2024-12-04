@@ -76,12 +76,24 @@
     height: 115px;
 }
 
+@media screen and (max-width: 1150px){
+    .footer_container {
+        height: auto;
+    }
+    
+    .footer-section-a {
+        margin-left: 2rem;
+        margin-right: 1rem;
+    }
+}
+
 @media screen and (max-width: 650px) {
     .footer_container {
         flex-direction: column;
     }
 
-    .footer-section-b {
-        border: 2px black solid;
+    .footer-section-b, .footer-section-c, .footer-section-d {
+        /* border: 2px black solid; */
+        margin-top: 1rem;
     }
 }

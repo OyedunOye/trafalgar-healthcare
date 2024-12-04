@@ -44,17 +44,29 @@
     
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1150px) {
     .articles-card {
+        /* border: purple 2px solid; */
+        width: auto;
         flex-direction: column;
-        justify-content: space-between;
-        border: 2px red solid;
-        align-items: center;
-        
+        height: 100%;
     }
 
     .article-card {
-        align-content: space-between;
+        width: auto;
+        height: 100%;
+        margin: 2rem 0;
+    }
+
+    .article-card >p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .article-card {
         margin-bottom: 2rem;
     }
 }

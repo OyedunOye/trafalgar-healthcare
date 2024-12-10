@@ -11,6 +11,11 @@
     display: flex;
     width: 160px;
     height: 41px;
+    cursor: pointer;
+}
+
+.navbar-logo:hover {
+    background-color: rgb(226, 234, 240);
 }
 
 .navbar-links > nav {
@@ -36,8 +41,8 @@ a{
 
 a:hover{
     color: var(--color-blue);
-    font-size: 18px;
-    line-height: 22.59px;
+    /* font-size: 18px;
+    line-height: 22.59px; */
 }
 
 .navbar-smallscreen {

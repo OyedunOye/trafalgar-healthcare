@@ -3,7 +3,7 @@ import './App.css';
 import { Navbar, Introduction, AboutUs, MobileApp, Services,Publications, Testimonials, Footer } from './components';
 
 const App = () => (
-    <div className="trafalgar_app">
+    <main className="trafalgar_app">
       <Navbar />
       <Introduction />
       <Services />
@@ -12,7 +12,7 @@ const App = () => (
       <Testimonials />
       <Publications />
       <Footer />
-    </div>
+    </main>
   );
 
   export default App;
